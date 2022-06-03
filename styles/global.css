@@ -1,0 +1,42 @@
+:root{
+    background-color: #a0ade7;
+}
+
+.orkut-font-color{
+    color: #fc03f8;
+}
+
+
+.orkut-btn-bg{
+    background-color: #3638c9;
+}
+
+.orkut-font-color-icons{
+   color: #a0ade7;
+}
+
+
+.orkut-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+header > nav {
+    color: white;
+    display: flex;  
+
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header > nav > #title > h1 {
+    font-size: 50px;
+}
+
+header > nav > #burguer > label{
+    font-size: 30px;
+
+}

@@ -1,0 +1,90 @@
+
+
+.font-color_profile{
+    color: wrgb(22, 158, 34);
+}
+
+header.menu{
+    border: 1px solid red;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 100px;
+    border: 4 px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15 px;
+    justify-content: space-between;
+}
+
+.container  :not(:first-child){
+    margin-top: 15px;
+}
+
+.photo,
+.description,
+.counter_friend,
+.counter_community{
+    border: 1px solid green;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.photo{
+    height: 500px;
+    border-top-right-radius: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+
+}
+
+photo_avatar> img{
+    border-radius: 15px;
+}
+
+.photo_tools{
+    text-decoration: none;
+}
+
+.photo_tools > div > i {
+    margin-right: 15px;
+}
+
+.photo > *{
+    /*border: 4px solid red;*/
+}
+
+.photo_name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.description{
+    height: 800px;
+    max-width: 720px;
+}
+
+
+.counter_friend,
+.counter_community{
+    height: 345px;
+    width: 340px;
+}
+
+
+.photo_profile{
+    height: 250px;
+    width: 250px;
+}
